@@ -34,6 +34,10 @@ public class AiceTest {
         webDriver.findElement(By.id("kw")).sendKeys("马士兵教育官网");
         webDriver.findElement(By.id("su")).click();
         System.out.println("第一次更新");
+        System.out.println("第二次更新");
+        System.out.println("创建分支");
+
+
 
     }
     
