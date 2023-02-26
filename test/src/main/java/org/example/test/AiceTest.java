@@ -33,6 +33,7 @@ public class AiceTest {
         webDriver.get("https://www.baidu.com");
         webDriver.findElement(By.id("kw")).sendKeys("马士兵教育官网");
         webDriver.findElement(By.id("su")).click();
+        System.out.println("第一次更新");
 
     }
     
